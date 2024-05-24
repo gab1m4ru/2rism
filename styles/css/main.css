@@ -1,0 +1,321 @@
+*, html, body {
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+body, html {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/bg/bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.container {
+  max-width: 1376px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 32px;
+  color: #161414;
+}
+
+.card__title {
+  font-weight: 500;
+  font-size: 16px;
+  color: #161414;
+}
+
+.card__desc {
+  font-weight: 400;
+  font-size: 13px;
+  color: #979797;
+}
+
+.header {
+  padding-top: 30px;
+}
+
+.header__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: start;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  gap: 54px;
+}
+.nav ul a {
+  text-transform: capitalize;
+  color: #fff;
+  transition: opacity 0.1s ease-in;
+}
+.nav ul a:hover {
+  opacity: 0.9;
+}
+
+.nav-item.active {
+  opacity: 0.8;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.user-text {
+  display: block;
+}
+.user-text .user-hello {
+  width: 42px;
+  opacity: 0.5;
+  margin-left: 54px;
+}
+.user-text .user-name {
+  color: #fff;
+}
+
+.user-avatar {
+  position: relative;
+}
+.user-avatar::after {
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  top: 0;
+  right: 0;
+  background-color: #FF0000;
+}
+
+.promo {
+  padding-top: 183px;
+}
+
+.promo__body {
+  display: grid;
+  justify-items: center;
+  gap: 32px;
+}
+
+.promo__title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 129%;
+}
+
+.promo__btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+}
+.promo__btn p {
+  width: 193px;
+}
+
+.search {
+  margin-top: 184px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #fff;
+}
+.search__theme {
+  display: block;
+  align-items: start;
+}
+
+.search-item {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  min-width: 254px;
+  padding: 16px 20px;
+}
+
+.search__theme p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 114%;
+  color: #5b5b5b;
+}
+.search__theme span {
+  font-weight: 500;
+  font-size: 16px;
+  color: #161414;
+}
+
+.search__btn {
+  width: 21px;
+}
+
+.button {
+  border-radius: 12px;
+  border: 0;
+  padding: 24px;
+  background: #7b61ff;
+  cursor: pointer;
+  transition: background 0.09s ease-in;
+}
+.button:hover {
+  background: #8067ff;
+}
+
+.popular {
+  margin-top: 120px;
+}
+
+.block__title {
+  margin-bottom: 64px;
+}
+
+.popular__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popular__card {
+  display: grid;
+}
+
+.popular__card img {
+  margin-bottom: 8px;
+}
+
+.card__title {
+  margin-bottom: 6px;
+}
+
+.hotels {
+  margin-top: 120px;
+}
+
+.block__title-view {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+.block__title-view .block__title {
+  margin: 0;
+}
+
+.view-all {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #5243c2;
+  padding: 10px;
+  background: #f6f4ff;
+}
+.view-all:hover {
+  background: #f2eff9;
+}
+
+.hotels__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hotels__card {
+  display: grid;
+  width: 320px;
+}
+
+.hotels__card img {
+  margin-bottom: 10px;
+}
+
+.card__title {
+  margin-bottom: 16px;
+}
+
+.hotels__place {
+  display: flex;
+  align-items: flex-end;
+}
+
+.card__desc {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.card__rate {
+  margin-left: auto;
+}
+
+.travel {
+  padding-top: 120px;
+}
+
+.travel__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.travel__card {
+  display: flex;
+}
+
+.card__right {
+  margin-left: 32px;
+  width: 320px;
+}
+
+.travel-card__title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #161414;
+}
+
+.travel-card__desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: #5b5b5b;
+  margin-top: 16px;
+}
+
+.travel__rate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 12px;
+  color: #878787;
+}/*# sourceMappingURL=main.css.map */

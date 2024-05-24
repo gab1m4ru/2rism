@@ -1,0 +1,26 @@
+.popular {
+    margin-top: 120px;
+}
+
+.block__title {
+    margin-bottom: 64px;
+}
+
+.popular__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popular__card {
+    display: grid;
+}
+
+.popular__card img {
+    margin-bottom: 8px;
+}
+
+.card__title {
+    margin-bottom: 6px;
+}
+

@@ -1,0 +1,63 @@
+.hotels {
+    margin-top: 120px;
+}
+
+.block__title-view {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .block__title {
+        margin: 0;
+    }
+
+    margin-bottom: 64px;
+}
+
+.view-all {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    color: #5243c2;
+    padding: 10px;
+    background: #f6f4ff;
+
+    &:hover {
+        background: #f2eff9;
+    }
+}
+
+.hotels__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hotels__card {
+    display: grid;
+    width: 320px;
+}
+
+.hotels__card img {
+    margin-bottom: 10px;
+}
+
+.card__title {
+    margin-bottom: 16px;
+}
+
+.hotels__place {
+    display: flex;
+    align-items: flex-end;
+}
+
+.card__desc {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.card__rate {
+    margin-left: auto;
+}
