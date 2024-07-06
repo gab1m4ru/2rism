@@ -1,0 +1,21 @@
+.activities {
+  padding-top: 120px;
+}
+
+.activities__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.activities__card {
+  .activities-img {
+    margin-bottom: 16px;
+  }
+
+  span {
+    font-weight: 500;
+    font-size: 16px;
+    color: #161414;
+  }
+}

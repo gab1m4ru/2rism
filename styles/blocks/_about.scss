@@ -1,0 +1,24 @@
+.about {
+  padding-top: 120px;
+
+  .container {
+    padding-left: 116px;
+    padding-right: 116px;
+  }
+}
+
+.about-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.block-left {
+  line-height: 2;
+  
+  max-width: 556px;
+
+  p, .view-all {
+    margin-top: 32px;
+  }
+}
